@@ -35,6 +35,7 @@
   },
   "scripts": {
 	"start": "npm run docs:dev",
+	"build": "npm run docs:build",
     "docs:dev": "vuepress dev docs",
     "docs:devdebug": "node --nolazy --inspect-brk=9229 ./node_modules/.bin/vuepress dev docs",
     "docs:devnocache": "vuepress dev docs --no-cache",
